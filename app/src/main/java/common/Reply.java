@@ -1,0 +1,10 @@
+package common;
+
+public enum Reply {
+	SUCCESS,
+	USERNAME_NOT_FOUND,
+	WRONG_PW,
+	INSUFFICIENT_PRIVILEDGE,
+	DATE_EXPIRED,
+	ID_NOT_FOUND,
+}

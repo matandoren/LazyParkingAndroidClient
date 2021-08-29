@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/add_driver"
+        android:title="@string/add_driver_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/change_driver_expiration_date"
+        android:title="@string/change_driver_expiration_date_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/remove_driver"
+        android:title="@string/remove_driver_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/expired_users_report"
+        android:title="@string/expired_users_report_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/open_gate"
+        android:title="@string/open_gate_menu"
+        app:showAsAction="never"/>
+
+</menu>
